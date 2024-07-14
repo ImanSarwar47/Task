@@ -1,0 +1,34 @@
+.sec-page{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(195, 194, 194);
+    padding: 19px;
+}
+.mobile-img{
+    height: 24px;
+    width: 24px;
+}
+.num{
+    margin: 11px;
+}
+.num button{
+    padding: 14px;
+    background-color: rgb(237, 222, 17);
+    font-size: 25px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 550px) {
+    .sec-page{
+        display: block;
+        background-color: rgb(195, 194, 194);
+        padding: 13px;
+    }
+    .info{
+        font-size: 8px;
+    }
+    .num button{
+        font-size: 8px;
+        padding: 9px;
+        font-weight: 100;
+    }
+}

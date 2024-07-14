@@ -1,0 +1,167 @@
+.third{
+    display: flex;
+    justify-content: space-around;
+    margin: 7px;
+    padding: 11px;
+}
+.info{
+    margin: 10px;
+    padding: 10px;
+}
+.line{
+    border: 1px solid blue;
+    width: 8%;
+    margin-top: -25px;
+}
+.f-lay{
+    display: flex;
+    margin: 15px;
+    padding: 7px;
+}
+.s-lay{
+    display: flex;
+    margin: 15px;
+    padding: 7px;
+}
+.third-layouts{
+    display: flex;
+}
+.fl-info{
+    padding: 9px;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+.sl-info{
+    padding: 9px;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+.tl-lay{
+    display: flex;
+    margin: 10px;
+    padding: 7px;
+}
+.fo-lay{
+    display: flex;
+    margin: 15px;
+    padding: 7px;
+}
+.third-layouttt{
+    display: flex;
+}
+.tl-info{
+    padding: 9px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+.fo-info{
+    padding: 9px;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+.tl-img{
+    margin-left: 20px;
+}
+.fo-img{
+    margin-left: 35px;
+}
+@media only screen and (max-width: 550px) {
+.image img{
+    display: none;
+}
+.line{
+    display: none;
+}
+.third-info h1{
+font-size: 19px;
+}
+.third{
+    margin: 4px;
+    padding: 7px;
+}
+.info{
+    margin: 7px;
+    padding: 7px;
+}
+.third-info p{
+    font-size: 11px;
+}
+.fl-img img{
+    height: 30px;
+    width: 30px;
+}
+.sl-img img{
+    height: 30px;
+    width: 30px;
+}
+.tl-img img{
+    height: 30px;
+    width: 30px;
+}
+.fo-img img{
+    height: 30px;
+    width: 30px;
+}
+.f-lay{
+    display: flex;
+    margin: 8px;
+    padding: 5px;
+}
+.s-lay{
+    display: flex;
+    margin: 8px;
+    padding: 5px;
+}
+.third-layouts{
+    display: block;
+}
+.fl-info{
+    padding: 7px;
+    margin-top: -25px;
+    margin-left: 0px;
+}
+.sl-info{
+    padding: 7px;
+    margin-top: -25px;
+    margin-left: 0px;
+}
+.tl-lay{
+    display: flex;
+    margin: 8px;
+    padding: 5px;
+}
+.fo-lay{
+    display: flex;
+    margin: 8px;
+    padding: 5px;
+}
+.third-layouttt{
+    display: block;
+}
+.tl-info{
+    padding: 7px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.fo-info{
+    padding: 9px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.tl-img{
+    margin-left: 15px;
+}
+.fo-img{
+    margin-left: 5px;
+}
+}
+@media only screen and (max-width: 780px) {
+.third{
+    display: block;
+}}
+@media only screen and (max-width: 1050px) {
+    .third{
+        display: block;
+    }
+}

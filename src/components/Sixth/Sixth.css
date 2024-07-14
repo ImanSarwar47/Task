@@ -1,0 +1,45 @@
+.six-page{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('/sixthBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.six-info{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+.sixth-img{
+    height: 24px;
+    width: 24px;
+}
+.six-btns{
+    margin: 11px;
+}
+.six-btns button{
+    padding: 14px;
+    background-color: rgb(237, 222, 17);
+    font-size: 25px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 790px) {
+    .six-info{
+        font-size: 18px;
+        padding: 11px;
+    }
+}
+@media only screen and (max-width: 550px) {
+.six-img{
+    display: none;
+}
+
+.six-info{
+    font-size: 14px;
+    padding: 11px;
+}
+}

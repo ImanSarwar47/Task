@@ -1,0 +1,90 @@
+.Fifth-info {
+    text-align: center;
+    margin-top: 50px;
+}
+.five-line{
+    border: 3px solid blue;
+    margin-left: 49%;
+    margin-right: 47%;
+    margin-top: -25px;
+}
+.fifth-list {
+    list-style-type: none;  
+    margin: 13px;
+    margin-left: 250px;
+}
+.fifth-list a:hover{
+    color: rgba(245, 190, 10, 0.909);
+}
+.fifth-list li {
+    display: inline; 
+}
+
+.fifth-list a {
+    text-decoration: none; 
+    color: black;      
+    margin: 7px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.fifth-img{
+    display: flex;
+    justify-content: space-around;
+}
+.fifth-btn button{
+    padding: 19px;
+    margin: 29px;
+    background-color: yellow;
+    font-size: 21px;
+    margin-left: 42vw;
+}
+@media only screen and (max-width: 1050px) {
+    .fifth-img img{
+        width: 800px;
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .five-line{
+        display: none;
+    }
+    .Fifth-info h1{
+        font-size: 18px;
+    }
+    .fifth-list {
+        margin-left: 35px;    
+    }
+    .fifth-list a {
+        margin: 5px;
+        font-size:15px;
+    }
+    .fifth-img img{
+        width: 400px;
+        height: 400px;
+    }
+    .fifth-btn button{
+        padding: 15px;
+        margin: 21px;
+        background-color: yellow;
+        font-size: 12px;
+        margin-left: 38vw;
+    }
+}
+@media only screen and (max-width: 500px) {
+.fifth-btn button{
+    margin-left: 31vw;
+}
+.fifth-list {
+    margin: 8px;  
+    margin-left: 15px;    
+}
+.fifth-list a {
+    margin: 3px;
+    font-size:10px;
+}
+.fifth-img img{
+    width: 300px;
+    height: 300px;
+}
+}

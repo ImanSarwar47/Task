@@ -1,0 +1,18 @@
+.container {
+  margin:0;
+  padding: 0;
+}
+.Web-Cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.fourth-sec{
+  background-image: url("/fourthBG.jpg");
+  background-size: cover;
+}
+@media only screen and (max-width: 790px) {
+  .Web-Cards{
+    display: block;
+    align-content: space-around;
+  }
+}

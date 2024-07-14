@@ -1,0 +1,71 @@
+.seven-line{
+    border: 3px solid blue;
+    margin-left: 0.3%;
+    margin-right:83%;
+    margin-top: -20px;
+}
+.sev-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(195, 194, 194);
+}
+.sev-input{
+    padding:15px;
+    border: 1px solid white;
+    margin:15px;
+    font-size: 20px;
+}
+.seven-form button{
+    padding:15px;
+    margin: 15px;
+    background-color: rgb(242, 198, 22);
+    font-size: 20px;
+    color: black;
+    border: 0px solid rgb(242, 198, 22);
+}
+@media only screen and (max-width: 1050px) {
+    .seven-form textarea{
+        width: 200px; 
+        height: 100px; 
+    }
+    .sev-sec{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .seven-form textarea{
+        width: 200px; 
+        height: 100px; 
+    }
+    .sev-sec{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+.seven-map img{
+    width: 100px;
+    height: 100px;
+}
+.seven-first{
+    font-size: 10px;
+}
+.seven-line{
+    display: none;
+}
+.seven-second{
+    font-size: 10px;
+}
+.sev-input{
+    padding:7px;
+    border: 1px solid white;
+    margin:7px;
+    font-size: 10px;
+}
+.seven-form textarea{
+    width: 200px; 
+    height: 50px; 
+}
+.sev-sec{
+    padding: 5px;
+}
+}

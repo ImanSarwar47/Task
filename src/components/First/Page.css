@@ -1,0 +1,78 @@
+.first-page{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('firstBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.first-info{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.learn-btn{
+    padding:13px;
+    background:#f9c003;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #f9c003;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.quote-btn{
+    padding:13px;
+    margin-left: 11px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black ;
+    color: black;
+    font-weight: 300;
+}
+.btns{
+    display: inline;
+}
+.first-info p{
+font-weight: bold;
+}
+@media only screen and (max-width: 550px) {
+.first-img{
+    display: none;
+}
+.first-page{
+    background: url('firstBG.jpg');;
+    background-size: cover;
+}
+
+.first-info{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+.learn-btn{
+    padding:7px;
+    background:#f9c003;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #f9c003;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.quote-btn{
+    padding:7px;
+    margin-left: 7px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black ;
+    color: black;
+    font-weight: 100;
+}
+.btns{
+    display: block;
+}
+}

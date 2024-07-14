@@ -1,0 +1,21 @@
+.btn button{
+    padding: 19px;
+    margin: 29px;
+    background-color: yellow;
+    font-size: 21px;
+    margin-left: 42vw;
+}
+@media only screen and (max-width: 790px) {
+    .btn button{
+        padding: 15px;
+        margin: 21px;
+        background-color: yellow;
+        font-size: 12px;
+        margin-left: 38vw;
+    }
+}
+@media only screen and (max-width: 500px) {
+.btn button{
+    margin-left: 31vw;
+}
+}
